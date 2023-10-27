@@ -2,32 +2,57 @@
     display: none;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     background-color:black;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 header {
     background-color: red;
+    padding: 10px 0;
 }
 
 #main-logo {
     width: 300px;
     display: block;
     margin: 0 auto; /*margin top and bottom, 0. margin left and right auto */
+    box-shadow: -3px 3px 10px rgba(0,0,0,.5);
+}
+
+#character_nav {
+    background-color: #675050;
+    background-image: url(../images/characters_art_mas_mob_01.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 .characters { 
     list-style-type: none;  
     padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 } /* get rid of list style */
 
 .characters li {
     height: 220px;
     margin: 10px 8px;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
+    box-shadow: 0 155px 0 rgb(255, 0, 0) inset;
+    transition: box-shadow .2s ease; /*targets both box-shadow: original and hover*/
+}
+
+.characters li:hover {
+    box-shadow: 0 220px 0 rgb(255,0,0) inset;
 }
 
 .characters li h5 {
@@ -45,6 +70,11 @@ article h3, #instructions h3 {
     margin-bottom: 14px;
 }
 
+article p, #instructions p{
+    font-size:  18px;
+    text-align: center;
+}
+
 .sprite {
     width: 150px;
     height: 150px;
@@ -59,4 +89,16 @@ article h3, #instructions h3 {
 
 #cap:hover, #carol:hover, #clint:hover, #hulk:hover, #thor:hover, #widow:hover {
     background-position-y: -150px;
+}
+
+footer {
+    text-align: center;
+}
+
+.sticky_footer {
+    height: 80px;
+    background-color: rgb(40,37,37);
+    position: sticky;
+    top: 100%;
+    padding: 20px 0;
 }
