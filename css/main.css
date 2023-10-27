@@ -1,0 +1,62 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header {
+    background-color: red;
+}
+
+#main-logo {
+    width: 300px;
+    display: block;
+    margin: 0 auto; /*margin top and bottom, 0. margin left and right auto */
+}
+
+.characters { 
+    list-style-type: none;  
+    padding: 0;
+} /* get rid of list style */
+
+.characters li {
+    height: 220px;
+    margin: 10px 8px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.characters li h5 {
+    color: #fff;
+    padding: 12px 8px;
+}
+
+article, #instructions {
+    padding: 20px;
+}
+
+article h3, #instructions h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.sprite {
+    width: 150px;
+    height: 150px;
+    background-image: url('../images/marvelSprites.jpg');
+}
+
+#carol {background-position: -150px 0;}
+#clint {background-position: -300px 0;}
+#hulk {background-position: -450px 0;}
+#thor {background-position: -600px 0;}
+#widow {background-position: -750px 0;}
+
+#cap:hover, #carol:hover, #clint:hover, #hulk:hover, #thor:hover, #widow:hover {
+    background-position-y: -150px;
+}
