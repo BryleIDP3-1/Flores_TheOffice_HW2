@@ -1,15 +1,15 @@
-# Marvel Comics Build For Fall 2023
-This repo is for an in-class build demonstrating basic CSS layouts, CSS sprites, and a light-box effect.
+# The Office Build For Fall 2023 :office_worker:
+This repo is for homework 2 demonstrating basic CSS layouts, CSS sprites, and a light-box effect.
 
-## Installation
+## Installation :gear:
 
 No Installation is required.
 
-## Usage
+## Usage :hammer:
 
 Open index.html in the browser of your choice.
 
-## Contributing
+## Contributing :bookmark:
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -17,14 +17,15 @@ Open index.html in the browser of your choice.
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
+## History :clock8:
 
-TODO: Write history
+**Created on October 20, 2023**
+Made for Homework 2
 
-## Credits
+## Credits :writing_hand:
 
-Marco De Luca
+Timothy Bryle Flores
 
-## License
+## License :page_facing_up:
 
 MIT License - see included license file.
