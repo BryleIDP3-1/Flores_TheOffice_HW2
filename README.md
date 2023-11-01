@@ -19,7 +19,7 @@ Open index.html in the browser of your choice.
 
 ## History :clock8:
 
-**Created on October 20, 2023**
+**Created on November 1, 2023**
 Made for Homework 2
 
 ## Credits :writing_hand:
