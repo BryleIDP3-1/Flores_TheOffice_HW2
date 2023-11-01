@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color:rgb(249, 245, 232);
     padding: 10px 0;
 }
 
@@ -23,7 +23,7 @@ header {
     width: 300px;
     display: block;
     margin: 0 auto; /*margin top and bottom, 0. margin left and right auto */
-    box-shadow: -3px 3px 10px rgba(0,0,0,.5);
+    /*box-shadow: -3px 3px 10px rgba(0,0,0,.5);*/
 }
 
 #character_nav {
@@ -77,8 +77,8 @@ article p, #instructions p{
 
 .sprite {
     width: 150px;
-    height: 150px;
-    background-image: url('../images/marvelSprites.jpg');
+    height: 300px;
+    background-image: url('../images/theofficeSprites1.jpg');
 }
 
 #carol {background-position: -150px 0;}
@@ -88,7 +88,7 @@ article p, #instructions p{
 #widow {background-position: -750px 0;}
 
 #cap:hover, #carol:hover, #clint:hover, #hulk:hover, #thor:hover, #widow:hover {
-    background-position-y: -150px;
+    background-position-y: -300px;
 }
 
 footer {
