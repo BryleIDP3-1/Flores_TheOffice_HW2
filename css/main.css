@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color:rgb(249, 245, 232);
+    background-color:#003085;
     padding: 10px 0;
 }
 
@@ -28,7 +28,7 @@ header {
 
 #character_nav {
     background-color: #675050;
-    background-image: url(../images/characters_art_mas_mob_01.jpeg);
+    background-image: url(../images/theofficeCover1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -42,17 +42,21 @@ header {
     flex-wrap: wrap;
 } /* get rid of list style */
 
+.characters li a {
+    text-decoration: none;
+}
+
 .characters li {
-    height: 220px;
+    height: 390px;
     margin: 10px 8px;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 155px 0 rgb(255, 0, 0) inset;
+    /*box-shadow: 0 300px 0 rgb(45, 64, 174) inset;*/
     transition: box-shadow .2s ease; /*targets both box-shadow: original and hover*/
 }
 
 .characters li:hover {
-    box-shadow: 0 220px 0 rgb(255,0,0) inset;
+    box-shadow: 0 420px 0 rgb(45, 64, 174) inset;
 }
 
 .characters li h5 {
@@ -65,13 +69,13 @@ article, #instructions {
 }
 
 article h3, #instructions h3 {
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 14px;
 }
 
 article p, #instructions p{
-    font-size:  18px;
+    font-size:  14px;
     text-align: center;
 }
 
@@ -81,13 +85,13 @@ article p, #instructions p{
     background-image: url('../images/theofficeSprites1.jpg');
 }
 
-#carol {background-position: -150px 0;}
-#clint {background-position: -300px 0;}
-#hulk {background-position: -450px 0;}
-#thor {background-position: -600px 0;}
-#widow {background-position: -750px 0;}
+#dwight {background-position: -150px 0;}
+#jim {background-position: -300px 0;}
+#pam {background-position: -450px 0;}
+#meredith {background-position: -600px 0;}
+#stan {background-position: -750px 0;}
 
-#cap:hover, #carol:hover, #clint:hover, #hulk:hover, #thor:hover, #widow:hover {
+#mike:hover, #dwight:hover, #jim:hover, #pam:hover, #meredith:hover, #stan:hover {
     background-position-y: -300px;
 }
 
