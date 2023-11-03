@@ -84,7 +84,7 @@ article p, #instructions p{
     height: 300px;
     background-image: url('../images/theofficeSprites1.jpg');
 }
-
+/*
 #dwight {background-position: -150px 0;}
 #jim {background-position: -300px 0;}
 #pam {background-position: -450px 0;}
@@ -93,7 +93,7 @@ article p, #instructions p{
 
 #mike:hover, #dwight:hover, #jim:hover, #pam:hover, #meredith:hover, #stan:hover {
     background-position-y: -300px;
-}
+}*/
 
 footer {
     text-align: center;
@@ -105,4 +105,63 @@ footer {
     position: sticky;
     top: 100%;
     padding: 20px 0;
+}
+
+.lightbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.85);
+    background-image: url('../images/Cap_LB_Bg.png');
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 40px bottom;
+    display: none;
+}
+
+/*used class not id for specificity*/
+#lightbox2 {
+    background-image: url(../images/Thor_LB_Bg.png);
+}
+
+.lightbox_close {
+    position: absolute;
+     /*by default X symbol is on left*/
+     /*code below puts it on right side*/
+    top: 20px;
+    right: 5px;
+
+
+    color: #fff;
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: bolder;
+
+    transition: all .5s ease-in-out;
+}
+
+.lightbox_close:hover {
+    opacity: 0.5;
+    color: red;
+}
+
+.lightbox article {
+    width: 55%;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
+.lb_text, .lb_heading {
+    text-align: left;
+}
+
+.lb_text {
+    line-height: 25px;
+}
+
+
+.lightbox:target {
+    display: block;
 }
