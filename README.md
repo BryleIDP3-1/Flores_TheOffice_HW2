@@ -22,6 +22,13 @@ Open index.html in the browser of your choice.
 5. Submit a pull request :D
 
 ## History :clock8:
+Created on October 27, 2023
+
+Updated on the following days:
+November 1, 2023
+November 2, 2023
+November 9, 2023
+
 
 **Created on November 1, 2023**
 Made for Homework 2
