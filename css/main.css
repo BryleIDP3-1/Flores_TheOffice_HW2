@@ -15,8 +15,9 @@ body {
 }
 
 header {
-    background-color:#003085;
-    padding: 10px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,48,133,1) 44%, rgba(28,79,152,1) 100%);
+    padding: 20px 0;
 }
 
 #main-logo {
@@ -32,6 +33,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
+    padding: 10px 0;
 }
 
 .characters { 
@@ -47,7 +49,7 @@ header {
 }
 
 .characters li {
-    height: 390px;
+    height: 380px;
     margin: 10px 8px;
     text-align: center;
     cursor: pointer;
@@ -82,26 +84,28 @@ article p, #instructions p{
 .sprite {
     width: 150px;
     height: 300px;
-    background-image: url('../images/theofficeSprites1.jpg');
+    background-image: url('../images/theofficeSprites1a.jpg');
 }
-/*
+
 #dwight {background-position: -150px 0;}
 #jim {background-position: -300px 0;}
 #pam {background-position: -450px 0;}
 #meredith {background-position: -600px 0;}
-#stan {background-position: -750px 0;}
+#ryan {background-position: -750px 0;}
 
-#mike:hover, #dwight:hover, #jim:hover, #pam:hover, #meredith:hover, #stan:hover {
-    background-position-y: -300px;
-}*/
+#mike:hover, #dwight:hover, #jim:hover, #pam:hover, #meredith:hover, #ryan:hover {
+background-position-y: -300px;
+}
 
 footer {
     text-align: center;
+    font-size:  12px;
 }
 
 .sticky_footer {
-    height: 80px;
-    background-color: rgb(40,37,37);
+    height: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,48,133,1) 44%, rgba(28,79,152,1) 100%);
     position: sticky;
     top: 100%;
     padding: 20px 0;
@@ -114,24 +118,40 @@ footer {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.85);
-    background-image: url('../images/Cap_LB_Bg.png');
+    background-image: url('../images/michael-lb1.png');
     background-repeat: no-repeat;
-    background-size: 55vh;
-    background-position: 40px bottom;
+    background-size: 50vh;
+    background-position: 50px 30px;
     display: none;
 }
 
 /*used class not id for specificity*/
 #lightbox2 {
-    background-image: url(../images/Thor_LB_Bg.png);
+    background-image: url(../images/dwight-lb1.png);
+}
+
+#lightbox3 {
+    background-image: url(../images/jim-lb1.png);
+}
+
+#lightbox4 {
+    background-image: url(../images/pam-lb1.png);
+}
+
+#lightbox5 {
+    background-image: url(../images/meredith-lb1.png);
+}
+
+#lightbox6 {
+    background-image: url(../images/ryan-lb1.png);
 }
 
 .lightbox_close {
     position: absolute;
      /*by default X symbol is on left*/
      /*code below puts it on right side*/
-    top: 20px;
-    right: 5px;
+    top: 50px;
+    right: 135px;
 
 
     color: #fff;
@@ -149,8 +169,8 @@ footer {
 
 .lightbox article {
     width: 55%;
-    margin-left: 40%;
-    padding-top: 50px;
+    margin-left: 35%;
+    padding-top: 80px;
 }
 
 .lb_text, .lb_heading {
