@@ -37,7 +37,9 @@ Made for Homework 2
 Published by:
 
 [Timothy Bryle Flores](https://www.behance.net/brylliancePH)
+
 [The Office Fandom](https://theoffice.fandom.com/wiki/List_of_The_Office_Characters)
+
 ## License :page_facing_up:
 
 MIT License - see included license file.
