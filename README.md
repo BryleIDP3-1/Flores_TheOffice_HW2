@@ -41,4 +41,4 @@ Published by:
 
 ## License :page_facing_up:
 
-MIT License - see included license file.
+MIT License Year 2023
