@@ -1,5 +1,4 @@
 # The Office Build For Fall 2023 :office_worker:
-This repo is for homework 2 showing basic CSS layouts, CSS sprites, and a light-box effect.
 
 The TV show "The Office" is an American mockumentary sitcom television series that depicts the everyday work lives of office employees at the Scranton, Pennsylvania, branch of the fictional Dunder Mifflin Paper Company. This show has some off-the-wall humor, which is another reason it’s so popular among Gen Z. There are so many inside jokes that it’s hard to keep count.
 
